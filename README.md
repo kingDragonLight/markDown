@@ -23,7 +23,7 @@
 
 白马啸西风  
 
-    射雕英雄传
+    射雕英雄传  TABLE
 
 ## 强调
 
@@ -39,7 +39,8 @@
 
 ### 无序列表
 
-无序列表用 - + * 任何一种都可以
+    无序列表用 - + *  
+    任何一种都可以
 
 - 列表内容
   - 二级列表
@@ -61,5 +62,33 @@
 2. 列表内容2 
 3. 列表内容3 
 
-## 十步杀一人，千里不留行 
-## 事了拂衣去，深藏功与名
+
+## 代码
+
+`console.log("arr")`
+
+```
+function f1(start) {
+    return function f2() {
+        start++;
+        console.log(start); // 999
+    }
+}
+var first = f1(3);
+first();// 4
+first();// 5
+```
+
+## 表格
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+dog | bird | cat
+----|------|----
+foo | foo  | foo
+bar | bar  | bar
+baz | baz  | baz
