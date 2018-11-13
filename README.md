@@ -90,3 +90,13 @@ dog | bird | cat
 foo | foo  | foo
 bar | bar  | bar
 baz | baz  | baz
+
+## git一些命令
+
+- git clone "https://github.com/username/filename"
+
+- git pull 下拉代码
+
+- git add filename.xx
+
+- git commit -m "修改内容"
